@@ -1,0 +1,48 @@
+.container {
+    width: 500px;
+    h2 {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .tabs {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        button {
+            width: 30%;
+            height: 60px;
+            text-align: center;
+            line-height: 60px;
+            cursor: pointer;
+            &.btn-tab {
+                border: 1px solid #999;
+            }
+            &.on {
+                background: pink;
+                color: hotpink;
+            }
+        }
+    }
+
+    .content-tabs {
+        div {
+            display: none;
+            &.on {
+                display: block;
+            }
+            h3 {
+                font-size: 30px;
+                padding: 10px;
+                border-bottom: 2px solid #000;
+                margin-bottom: 20px;
+                color: hotpink;
+            }
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+}

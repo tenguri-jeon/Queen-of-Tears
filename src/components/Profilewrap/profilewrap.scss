@@ -1,0 +1,23 @@
+.profilewrap{
+    padding: 30px 15px;
+    img{
+        width: 80%;
+        height: 100%;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        font-size: 22px;
+        text-align: left;
+        .name-container{
+            background-color: #dfdfdf;
+            padding: 5px 15px;
+        }
+        div{
+            margin-top: 18px;
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+}
