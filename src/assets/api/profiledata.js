@@ -1,7 +1,7 @@
 export default[
     {
         id : 1 ,
-        imgurl : '../public/김수현.png',
+        imgurl : '/public/김수현.png',
         name : '김수현',
         isShow : true , 
         age : 37,
@@ -9,7 +9,7 @@ export default[
     },
     {
         id : 2 ,
-        imgurl : '../public/김지원.png',
+        imgurl : '/public/김지원.png',
         name : '김지원',
         isShow : false , 
         age : 33,
@@ -17,7 +17,7 @@ export default[
     },
     {
         id : 3 ,
-        imgurl : '../public/박성훈.png',
+        imgurl : '/public/박성훈.png',
         name : '박성훈',
         isShow : false , 
         age : 40,
@@ -25,7 +25,7 @@ export default[
     },
     {
         id : 4 ,
-        imgurl : '../public/곽동연.png',
+        imgurl : '/public/곽동연.png',
         name : '곽동연',
         isShow : false , 
         age : 26,
@@ -33,7 +33,7 @@ export default[
     },
     {
         id : 5 ,
-        imgurl : '../public/이주빈.png',
+        imgurl : '/public/이주빈.png',
         name : '이주빈',
         isShow : false , 
         age : 36,
