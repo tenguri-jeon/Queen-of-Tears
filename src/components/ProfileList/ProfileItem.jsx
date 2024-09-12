@@ -5,7 +5,6 @@ const ProfileItem = ({ clickInput, item }) => {
 
     return (
         <li className={isShow ? 'on' : ''}>
-        {/* <li onClick={()=>clickInput(id)} className={isShow ? 'on' : ''}> */}
             <div>
                 <div className="check"></div>
                 <img src={imgurl} alt={name} />
